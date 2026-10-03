@@ -2,6 +2,10 @@
 
 The source behind **[prateeksahni.pages.dev](https://prateeksahni.pages.dev)**: a project-first portfolio across engineering, software & AI, and sales, with an AI assistant that answers visitors' questions from the site's own content, by text or voice.
 
+[![Watch the one-minute intro video](media/intro-poster.jpg)](media/intro.mp4)
+
+**▶ [Watch the one-minute intro video](media/intro.mp4)**
+
 ## What it does
 
 - Interactive three.js hero with objects drawn as neural networks, recoloured for each area of work
