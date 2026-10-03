@@ -8,7 +8,7 @@ The source behind **[prateeksahni.pages.dev](https://prateeksahni.pages.dev)**: 
 - Area switcher (Engineering · Software & AI · Sales) that changes the projects, stats and accent colours
 - 22 project case studies with problem, approach, outcome and skills, filterable by skill; projects with screenshot galleries listed first
 - Skills section built automatically from the projects, so every skill links to the work that used it
-- **Eowyn**, an AI assistant on a serverless function that streams answers from the site's own content, with origin checks and daily usage limits stored against hashed IPs
+- **Eowyn**, an AI assistant on a serverless function that streams answers from the site's own content, protected by a Cloudflare Turnstile human check (invisible for most visitors, a one-click box only when Cloudflare is unsure) that issues a signed six-hour pass, plus origin checks and daily usage limits stored against hashed IPs
 - A five-model fallback chain across two providers (NVIDIA Nemotron, then Meta Llama, Alibaba Qwen, Mistral and Google Gemma on Cloudflare Workers AI), so a model retirement or outage never takes the assistant down
 - Hands-free voice conversation with Eowyn, using the browser's own speech recognition and speech, so voice costs nothing to run: she listens, answers aloud sentence by sentence as the reply arrives in the most natural female voice the device has (Irish where available, at a calm, unhurried pace), then listens again; plus speech-to-text typing
 - Listening tuned per platform: Android, which can't listen continuously, gets one session per question instead of a restart loop
