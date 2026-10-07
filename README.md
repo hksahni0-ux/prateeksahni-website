@@ -10,7 +10,7 @@ The source behind **[prateeksahni.pages.dev](https://prateeksahni.pages.dev)**: 
 
 - Interactive three.js hero with objects drawn as neural networks, recoloured for each area of work
 - Area switcher (Engineering · Software & AI · Sales) that changes the projects, stats and accent colours
-- 23 project case studies with problem, approach, outcome and skills, filterable by skill; projects with screenshot galleries listed first
+- 28 project case studies with problem, approach, outcome and skills, filterable by skill; projects with screenshot galleries listed first
 - Skills section built automatically from the projects: every skill carries its logo or icon, each area's most-used skills sit up front as tiles, and hovering or tapping a skill lists the projects that used it, one click from the full case study
 - **Eowyn**, an AI assistant on a serverless function that streams answers from the site's own content, protected by a Cloudflare Turnstile human check (invisible for most visitors, a one-click box only when Cloudflare is unsure) that issues a signed six-hour pass, plus origin checks and daily usage limits stored against hashed IPs
 - A five-model fallback chain across two providers (NVIDIA Nemotron, then Meta Llama, Alibaba Qwen, Mistral and Google Gemma on Cloudflare Workers AI), so a model retirement or outage never takes the assistant down
