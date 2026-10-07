@@ -11,6 +11,9 @@ The source behind **[prateeksahni.pages.dev](https://prateeksahni.pages.dev)**: 
 - Interactive three.js hero with objects drawn as neural networks, recoloured for each area of work
 - Area switcher (Engineering · Software & AI · Sales) that changes the projects, stats and accent colours
 - 28 project case studies with problem, approach, outcome and skills, filterable by skill; projects with screenshot galleries listed first
+- A standalone page for every project at its own address (for example `/projects/event-crm/`), generated at build time from the same content as the home page: a fact panel (result, context, year, area, code), a swipeable screenshot gallery with thumbnails and a full-screen view, long-form case-study chapters, every tool with its logo or icon, related projects, and two clear next steps, one for employers (book a call, request a CV) and one for clients (a link that opens the enquiry form ready to type in)
+- Each project page has its own search title, description, social preview image and Article structured data, and the sitemap is rebuilt on every build to list them all
+- The assistant, games, quiz, walking figure and privacy notice are on every project page too, from the same components as the home page
 - Skills section built automatically from the projects: every skill carries its logo or icon, each area's most-used skills sit up front as tiles, and hovering or tapping a skill lists the projects that used it, one click from the full case study
 - **Eowyn**, an AI assistant on a serverless function that streams answers from the site's own content, protected by a Cloudflare Turnstile human check (invisible for most visitors, a one-click box only when Cloudflare is unsure) that issues a signed six-hour pass, plus origin checks and daily usage limits stored against hashed IPs
 - A five-model fallback chain across two providers (NVIDIA Nemotron, then Meta Llama, Alibaba Qwen, Mistral and Google Gemma on Cloudflare Workers AI), so a model retirement or outage never takes the assistant down
@@ -23,7 +26,7 @@ The source behind **[prateeksahni.pages.dev](https://prateeksahni.pages.dev)**: 
 - Hidden extras: easter eggs in the hero and a playable 404 page
 - A giant walking figure made of glowing points that strides across the screen now and then, holds the visitor's gaze, then flies Superman-style into one of the site's features; it only starts at calm moments and never blocks a click
 - Compact navigation that tucks the sections behind a morphing menu icon, marks the section you're in, and gives first-time visitors a one-off hint
-- Pages prerendered to static HTML for speed and search, then hydrated in the browser
+- Pages prerendered to static HTML for speed and search, then hydrated in the browser; headline numbers are in the HTML itself, so search engines and link previews read the real values
 - Strict security headers (CSP with hashed inline scripts, HSTS), no cookies or local storage, plain-English privacy notice and terms
 - Lighthouse: 100 for SEO, accessibility and best practices
 
