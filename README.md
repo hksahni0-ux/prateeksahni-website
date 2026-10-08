@@ -10,7 +10,7 @@ The source behind **[prateeksahni.pages.dev](https://prateeksahni.pages.dev)**: 
 
 - Interactive three.js hero with objects drawn as neural networks, recoloured for each area of work
 - Area switcher (Engineering · Software & AI · Sales) that changes the projects, stats and accent colours
-- 28 project case studies with problem, approach, outcome and skills, filterable by skill; projects with screenshot galleries listed first
+- 29 project case studies with problem, approach, outcome and skills, filterable by skill; projects with screenshot galleries listed first
 - A standalone page for every project at its own address (for example `/projects/event-crm/`), generated at build time from the same content as the home page: a fact panel (result, context, year, area, code), a swipeable screenshot gallery with thumbnails and a full-screen view, long-form case-study chapters, every tool with its logo or icon, related projects, and two clear next steps, one for employers (book a call, request a CV) and one for clients (a link that opens the enquiry form ready to type in)
 - Each project page has its own search title, description, social preview image and Article structured data, and the sitemap is rebuilt on every build to list them all
 - The assistant, games, quiz, walking figure and privacy notice are on every project page too, from the same components as the home page
